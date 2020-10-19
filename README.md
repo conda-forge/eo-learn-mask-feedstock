@@ -5,11 +5,11 @@ Home: https://github.com/sentinel-hub/eo-learn
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/eo-learn-mask-feedstock/blob/master/LICENSE.txt)
 
 Summary: A collection of masking utilities and EOTasks
 
-
+Documentation: https://pypi.org/project/eo-learn-mask/
 
 Current build status
 ====================
