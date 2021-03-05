@@ -1,5 +1,5 @@
 {% set name = "eo-learn-mask" %}
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 358a20218cd3eed211906d35c2b7f9c0d39c41e584f2e8484251ce4341ed5295
+  sha256: e92dacfb214fdc2676612c981aa10d003ae0276ceabf28bc748a031a9772222d
 
 build:
   number: 0
