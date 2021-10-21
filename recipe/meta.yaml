@@ -29,6 +29,7 @@ requirements:
 test:
   imports:
     - eolearn
+    - eolearn.core
     - eolearn.mask
 
 about:
