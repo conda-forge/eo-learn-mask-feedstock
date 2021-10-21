@@ -1,5 +1,5 @@
 {% set name = "eo-learn-mask" %}
-{% set version = "0.9.0" %}
+{% set version = "0.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: edd0170d3a16c1388dfa56001f09de3daabb31f04c534811ee5bdb95d755ccbc
+  sha256: 37daaa2b37ee9cf17924d70c344c4c4510662d3e44597c456cdebf3bbe544b37
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [(win and vc<14) or py<35 or python_impl == 'pypy']
 
@@ -42,7 +42,3 @@ about:
 extra:
   recipe-maintainers:
     - mxr-conda
-    - mwilson8
-    - oblute
-    - rluria14
-    - benhuff
