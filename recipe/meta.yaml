@@ -1,5 +1,5 @@
 {% set name = "eo-learn-mask" %}
-{% set version = "0.10.1" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 487e91a73e00d0013e769f7faeac50e70bd22023c8e3d927f6584500a887fa46
+  sha256: efb72a53e1d0b29c2ee2b2735df8cd837479de9b0f912224c8f7e6771e4518b0
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [(win and vc<14) or py<35 or python_impl == 'pypy']
 
